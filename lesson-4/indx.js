@@ -208,6 +208,225 @@
 // let b = +prompt("Ikkinchi sonni kiriting");
 // let c = +prompt("Uchunchi sonni kiriting");
 
-// if( a , b , c ){
-//     a = 
+// if (a > b && b > c){
+//     console.log(a);
+//     console.log(b);
+// }else if(a < b && b < c){
+//     console.log(c);
+//     console.log(b);
+// }else if(a > c && b < c){
+//     console.log(a);
+//     console.log(c);
+// }else{
+//     konsole.log("hato!")
 // }
+
+// -------------------------------------------------------------------
+
+// 13-misol
+
+// let a = +prompt("A sonni kiriting");
+// let b = +prompt("B sonni kiriting");
+// let c = +prompt("C sonni kiriting");
+
+// if (a < b && b < c ){
+//     console.log(a * 2);
+//     console.log(b * 2);
+//     console.log(c * 2);
+// }else{
+//     console.log(a - (a * 2));
+//     console.log(b - (b *2));
+//     console.log(c - (c * 2));
+// }
+
+//----------------------------------------------------------------------------------
+
+// 14 - misol
+
+// let a = +prompt("A sonni kiriting");
+// let b = +prompt("B sonni kiriting");
+// let c = +prompt("C sonni kiriting");
+
+// if (a < b && b < c ){
+//     console.log(a * 2);
+//     console.log(b * 2);
+//     console.log(c * 2);
+// }else if (a > b && b > c){
+//     console.log(a * 2);
+//     console.log(b * 2);
+//     console.log(c * 2);
+// }else{
+//     console.log(a - (a * 2));
+//     console.log(b - (b *2));
+//     console.log(c - (c * 2));
+// }
+
+//------------------------------------------------------------------------------------------
+
+// 15- misol
+
+// let a = +prompt("Birinchi sonni kiriting");
+// let b = +prompt("Ikkinchi sonni kiriting");
+// let c = +prompt("Uchunchi sonni kiriting");
+// let d = +prompt("To'rtinchi sonni kiriting");
+
+// if(Number.isInteger(a) && Number.isInteger(b) && Number.isInteger(c) && Number.isInteger(d)){
+//     if(a == b && b == c && c!=d){
+//         console.log(`( ${d} ) --> 4- son teng emas !`)
+//     }else if(a == b && b == d && c!=d){
+//         console.log(`( ${c} ) --> 3- son teng emas !`)
+//     } else if(a == c && b != c && c==d){
+//         console.log(`( ${b} ) --> 2- son teng emas !`)
+//     }else if(a != b && b == c && c==d){
+//         console.log(`( ${a} ) --> 1- son teng emas !`)
+//     } else if(a == b && b == d && c == d){
+//         console.log(`Siz kiritga barcha sonlar teng!`)
+//     } else{
+//         console.log("siz kiritgan sonlar shartga tushmadi , kamida 3 ta son teng bo'lishligi kerak !");
+//     } 
+// }else{
+//     console.log("siz kiritgan sonlar butun son emas , iltimos butun son kiriting !");
+// }
+
+//------------------------------------------------------------------------------------------------------
+
+// 16 - misol
+
+// let x = +prompt("Son kiriting");
+// if( x <= 0){
+//     console.log(x - (x * -2));
+// }else if (x > 0 && x < 2){
+//     console.log(x ** 2);
+// }else if (x >= 2){
+//     x = 4 ;
+//     console.log(x);
+// }else{
+//     console.log("Siz kiritgan son shartga tushmadi , boshqa son kiriting !");
+// }
+
+//-----------------------------------------------------------------------
+
+// 17 -misol
+
+// let a = +prompt("Ihtiyoriy yil kiriting");
+// if (Number.isInteger(a) && a > 0){
+//     let b = a / 4;
+//     b = Number.parseInt(b);
+//     console.log("siz kiritgan yilda " + (b + (a * 365) ) + " kun bor !" );
+// }else{
+//     console.log("Janob kiritgan yilingiz hato !");
+// }
+
+//-----------------------------------------------------------------------------------------
+
+// 18 - misol
+
+// let x = +prompt("3 honali son kiriting");
+// if (x < 1000 && x > 0 && Number.isInteger(x)){
+//     if(x % 2 == 0 && x / 10 > 10){
+//         console.log(`(${x}) - siz kiritgan son uch honalik juft son !`);
+//     }else if(x % 2 != 0 && x / 10 > 10){
+//         console.log(`(${x}) - siz kiritgan son uch honalik tog son !`);
+//     }else if(x % 2 != 0 && x / 10 < 10){
+//         console.log(`(${x}) - siz kiritgan son ikki honalik tog son !`);
+//     }else if(x % 2 == 0 && x / 10 < 10){
+//         console.log(`(${x}) - siz kiritgan son ikki honalik juft son !`);
+//     }else{
+//         console.log("Siz kiritgan son hato")
+//     }
+// }else{
+//     console.log("Siz kiritgan son shartga tushmaydi , janob 3 honali son kiriting !")
+// }
+
+//--------------------------------------------------------------------------------------------------
+
+// 19 - misol  switvh-1
+
+// let a = +prompt("Bahoyingizni kiriting");
+// if(Number.isInteger(a) && a >0 && a < 6){
+//     switch (a){
+//         case 1 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  yomon `);
+//             break;
+//         case 2 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  qoniqarsiz `);
+//             break;
+//         case 3 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  qoniqarli `);
+//             break;
+//          case 4 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  yahshi `);
+//             break;
+//         case 5 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  alo `);
+//             break;   
+//     }
+// }else{
+//     console.log("Xato !");
+// }
+
+//---------------------------------------------------------------------------------------------------
+
+// 19 - misol  switvh-2
+
+// let a = +prompt("Oy raqamini kiriting :");
+// if(Number.isInteger(a) && a > 0 && a < 13){
+//     switch(a){
+//         case 12:
+//         case 1 :
+//         case 2 :
+//             console.log(`${a} - oy qish fasli`);
+//             break;
+//         case 3 :
+//         case 4 :
+//         case 5 :
+//             console.log(`${a} - oy bahor fasli`);
+//             break;
+//         case 6 :
+//         case 7 :
+//         case 8 :
+//             console.log(`${a} - oy yoz fasli`);
+//             break;
+//         case 9 :
+//         case 10 :
+//         case 11 :
+//             console.log(`${a} - oy kuz fasli`);
+//             break;    
+//     }
+// }else{
+//     console.log(`${a} bunday oy kuni mavjud emas !`);
+// }
+
+//------------------------------------------------------------------------------
+
+// 20 - misol   switvh-3
+
+// let a = +prompt("Oy raqamini kiriting :");
+// if(Number.isInteger(a) && a > 0 && a < 13){
+//     switch (a){
+//         case 1 :
+//         case 3 :
+//         case 5 :
+//         case 7 :
+//         case 8 :
+//         case 10 :
+//         case 12 :          
+//             console.log(`${a} - oyda 31 kun bor`);
+//             break;
+//         case 2 :
+//             console.log(`${a} - oyda 29 kun bor`);
+//             break; 
+//         case 4 :
+//         case 6 :
+//         case 9 :
+//         case 11 :           
+//             console.log(`${a} - oyda 30 kun bor`);
+//             break;       
+//     }
+// }else{
+//     console.log(`(' ${a} ') bunday oy mavjut emas !`);
+// }
+
+//---------------------------------------------------------------------------------------
+
+// 21 -misol    switvh-4
