@@ -430,3 +430,271 @@
 //---------------------------------------------------------------------------------------
 
 // 21 -misol    switvh-4
+
+// let x = +prompt("Kesma uzunligini kiriting");
+// let a = +prompt("O'lchiv birligini kiriting 1 va 5 sonlari oraligida ! 1-distimetr , 2-kilomert , 3-metr, 4-milimetr, 5-santimetr ");
+// let c ;
+// switch (a){
+//     case 1:
+//         c = x * 10 ;
+//         console.log(`Siz kiritgan ${x} - distimetr uzunlikdagi kesma  barobar ${c} metrga uzunlikdagi kesmaga!`);
+//         break;
+//     case 2:
+//         c = x * 1000 ;
+//         console.log(`Siz kiritgan ${x} - kilometr uzunlikdagi kesma  barobar ${c} metrga uzunlikdagi kesmaga!`);
+//         break;
+//     case 3:
+//         c = x / 1 ;
+//         console.log(`Siz kiritgan ${x} - metr uzunlikdagi kesma  barobar ${c} metrga uzunlikdagi kesmaga!`);
+//         break;
+//     case 4:
+//         c = x / 1000 ;
+//         console.log(`Siz kiritgan ${x} - milimetr uzunlikdagi kesma  barobar ${c} metrga uzunlikdagi kesmaga!`);
+//         break;
+//     case 5:
+//         c = x / 100 ;
+//         console.log(`Siz kiritgan ${x} - santimetr uzunlikdagi kesma  barobar ${c} metrga uzunlikdagi kesmaga!`);
+//         break; 
+//     default:
+//         console.log("O'lchov birliklarini hato kiritdingiz !")                   
+// }
+
+//---------------------------------------------------------------------------------------------
+
+// 22 - misol switch-5
+
+// let x = +prompt("Og'irlik qiymatimo liriting ");
+// let a = +prompt("Og'irlik o'lchovini  kiriting 1 va 5 sonlari oraligida ! 1-kilogram , 2-miligram , 3-gram, 4-tonna, 5-sentiner ");
+// let c ;
+// switch (a){
+//     case 1:
+//         c = x / 1 ;
+//         console.log(`Siz kiritgan ${x} - kilogram ogirlik   ${c} - kilogram o'girlikka teng!`);
+//         break;
+//     case 2:
+//         c = x / 1e6 ;
+//         console.log(`Siz kiritgan ${x} - miligram og'irlik ${c} - kilogram o'girlikka teng!`);
+//         break;
+//     case 3:
+//         c = x / 1e3 ;
+//         console.log(`Siz kiritgan ${x} - gram og'irlik ${c} - kilogram o'girlikka teng!`);
+//         break;
+//     case 4:
+//         c = x * 1000 ;
+//         console.log(`Siz kiritgan ${x} - tonna og'irlik ${c} - kilogram o'girlikka teng!`);
+//         break;
+//     case 5:
+//         c = x * 100 ;
+//         console.log(`Siz kiritgan ${x} - santimetr og'irlik ${c} - kilogram o'girlikka teng!`);
+//         break; 
+//     default:
+//         console.log("O'lchov birliklarini hato kiritdingiz !")                   
+// }
+
+//-----------------------------------------------------------------------------------------------------------
+
+// 23 - misol        switch-6
+
+
+
+// 24-misol        switch -7
+
+
+// 25-misol        switch -8
+
+// let y = prompt(`Robot yo'nalishimi kiriting , "s"-shimol ,"j"-janub ,"q"-sharq ,"g"-garb`);
+// let k = +prompt(`Robotga kamanda bering , "0"-harakatni davom ettir ,"1"-chapka burul , "2"-O'ngga burul`);
+// let a = "";
+
+// if(y === "s" || y === "j" ||y === "q" || y === "g" ){
+//     switch(y){
+//         case "s" :
+//             a += " shimol"
+//             break;
+//         case "j" :
+//             a += " janub"
+//             break;
+//         case "q" :
+//             a += " sharq"
+//             break; 
+//         case "g" :
+//             a += " garb"
+//             break;           
+//     } 
+// }else{
+//      console.log("Hato yonalish kiritildi !");
+// }
+
+// if(k == 0 ||k == 1 || k == 2 ){
+//     switch (k){
+//         case 0:
+//             a += " harakatni davom ettir"
+//             break;
+//         case 1:
+//             a += " chapga burul"
+//             break;
+//         case 2:
+//             a += " o'nga burul"
+//             break;
+//     }
+// }else{
+//     console.log("Kamanda hato kiritildi !")
+// }
+
+// console.log(a);
+
+//-------------------------------------------------------------------------------------------------
+
+// 26-misol        switch -9
+
+//-----------------------------------------------------------------
+
+// 27-misol        switch -10
+
+//----------------------------------------------------------------------
+
+// 28-misol        switch -11
+
+// let x = +prompt("Masalalar sonini kiriting")
+// let a = "";
+// if(x >= 10 && x < 20){
+//     a += "o'n";
+// }else if(x >= 20 && x < 30){
+//     a += "yigirma";
+// }else if(x >= 30 && x < 40){
+//     a += "o'ttiz";
+// }else if(x >= 40 && x < 50){
+//     a += "qirq";
+// }else{
+//    console.log(` (${x}) -Misollae soni 10 va 40 oraligida bo'lsin !`) 
+// }
+
+// switch(x % 10){
+//     case 0:
+//        a += "";
+//        break;
+//     case 1:
+//        a += " birta";
+//        break; 
+//     case 2:
+//         a += " ikkita";
+//         break;         
+//     case 3:
+//         a += " uchta";
+//         break;
+//     case 4:
+//        a += " to'rtta";
+//        break;
+//     case 5:
+//        a += " beshta";
+//        break;
+//     case 6:
+//        a += " oltita";
+//        break;
+//     case 7:
+//         a += " ettita";
+//         break;
+//     case 8:
+//         a += " sakkizta";
+//         break;
+//     case 9:
+//         a += " to'qizta";
+//         break;   
+// }
+// if(x >= 10 && x <=50){
+//     console.log(a + "  masala");
+// }
+
+//----------------------------------------------------------------------------
+
+// 29 - misol switch-12
+
+let x = +prompt("Uch honadan katta bo'lmagan son liriting !");
+let a = "";
+let b = x % 100;
+if(x > 0 && x < 1000){
+    if(x >= 100 && x < 200){
+        a += "bir yuz";
+    }else if(x >= 200 && x < 300){
+        a += "ikki yuz";
+    }else if(x >= 300 && x < 400){
+        a += "uch yuz";
+    }else if(x >= 400 && x < 500){
+        a += "to'rt yuz";
+    }else if(x >= 500 && x < 600){
+        a += "besh yuz";
+    }else if(x >= 600 && x < 700){
+        a += "olti yuz";
+    }else if(x >= 700 && x < 800){
+        a += "etti yuz";
+    }else if(x >= 800 && x < 900){
+        a += "sakiz yuz";
+    }else if(x >= 900 && x <1000){
+        a += "to'qiz yuz";
+    }
+}else if( x == 0){
+    console.log("no'l");
+}else{
+    console.log("Siz kiritga son shartga mos emas !")
+}
+
+if(b >= 0 && b < 10){
+    a += "  ";
+}else if(b >= 10 && b < 20){
+    a += " o'n";
+}else if(b >= 20 && b < 30){
+    a += " yigirma";
+}else if(b >= 30 && b < 40){
+    a += " o'tiz";
+}else if(b >= 40 && b < 50){
+    a += " qiriq";
+}else if(b >= 50 && b < 60){
+    a += " elik";
+}else if(b >= 60 && b < 70){
+    a += " otmish";
+}else if(b >= 70 && b < 80){
+    a += " etmish";
+}else if(b >= 80 && b < 90){
+    a += " sakson";
+}else if(b >= 90 && b <100){
+    a += " to'qson";
+}
+
+switch(x % 10){
+    case 0:
+       a += "";
+       break;
+    case 1:
+       a += " bir";
+       break; 
+    case 2:
+        a += " ikki";
+        break;         
+    case 3:
+        a += " uch";
+        break;
+    case 4:
+       a += " to'rt";
+       break;
+    case 5:
+       a += " besh";
+       break;
+    case 6:
+       a += " olti";
+       break;
+    case 7:
+        a += " etti";
+        break;
+    case 8:
+        a += " sakkiz";
+        break;
+    case 9:
+        a += " to'qiz";
+        break;   
+}
+
+if(x >= 0 && x < 1000){
+    console.log(a);
+}
+
+//--------------------------------------------------------------------------------------
