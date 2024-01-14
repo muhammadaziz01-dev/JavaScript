@@ -499,6 +499,9 @@
 
 // 24-misol        switch -7
 
+//-------------------------------------------------------------------------------------------------------------
+
+
 
 // 25-misol        switch -8
 
@@ -609,7 +612,7 @@
 
 // 29 - misol switch-12
 
-let x = +prompt("Uch honadan katta bo'lmagan son liriting !");
+/*let x = +prompt("Uch honadan katta bo'lmagan son liriting !");
 let a = "";
 let b = x % 100;
 if(x > 0 && x < 1000){
@@ -695,6 +698,26 @@ switch(x % 10){
 
 if(x >= 0 && x < 1000){
     console.log(a);
-}
+}*/
 
 //--------------------------------------------------------------------------------------
+
+// 30 -misol 
+
+let davrYili = prompt("Iltimos yilni kiriting:");
+
+if (davrYili !== null && !isNaN(davrYili)) {
+    davrYili = parseInt(davrYili);
+
+    let ranglar = ["Yashil", "Qizil", "Sariq", "Oq", "Qora"];
+    let hayvonlar = ["Sichqon", "Sigir", "Yo'lbars", "Quyon", "Ajdar", "Ilon", "Ot", "Qo'y", "Maymun", "Tovuq", "It", "To'ng'iz"];
+
+    let rangIndex = davrYili % 5;
+    let havonIndex = davrYili % 12;
+y
+    let muchaliYil = ranglar[rangIndex] + " " + hayvonlar[hayvonIndex] + " yili";
+
+    console.log(muchaliYil);
+} else {
+    console.log("Noto'g'ri kiritildi yoki bekor qilindi.");
+}
