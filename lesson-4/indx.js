@@ -370,6 +370,7 @@
 // 19 - misol  switvh-2
 
 // let a = +prompt("Oy raqamini kiriting :");
+
 // if(Number.isInteger(a) && a > 0 && a < 13){
 //     switch(a){
 //         case 12:
