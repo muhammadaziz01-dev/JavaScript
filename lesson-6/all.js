@@ -247,3 +247,162 @@
 //------------------------------------------------------------------
 
 // 12- misol
+
+//------------------------------------------------
+
+// 16 - misol
+
+// function foctarial(n) {
+//     if(n<0){
+//       return 1
+//     }else if(n>0){
+//         let a = 1;
+//         for(let i = 1; i <= n ; i++){
+//             a *= i;
+//         }
+//         return a;
+//     }else{
+//         return 0
+//     }
+    
+// }
+
+// let x= foctarial(3);
+// console.log(x);
+
+//---------------------------------------------------------
+
+// 17 -misol
+
+// function getSum3 (n){
+//     let a = 0;
+//     for(let i = 1 ; i <= n ; i++){
+//         if(i % 3 == 0){
+//            a += i;
+//         }
+//     }
+//     console.log(a);
+// }
+
+// getSum3(15)
+
+//-------------------------------------------------------------------
+
+// 18 -misol
+
+// function sumOddAven(n) {
+//     let a = 0;
+//     let b = 0;
+//     for(let i = 1 ; i<= n ; i++){
+//         if(i % 2 == 0){
+//             a += i;
+//         }else{
+//             b += i;
+//         }
+//     }
+//     console.log(a,b);
+// }
+
+// sumOddAven(10)
+
+//------------------------------------------------------------------------
+
+// 19 - misol
+
+// function inverTaime(h , m, s){
+//     h = h * 3600;
+//     m = m * 60;
+//     let t =(h + m + s);
+//     console.log(`${t} sekund`);
+// }
+
+// inverTaime(0,6,40)
+
+//------------------------------------------------------------------------------
+
+// 21- misol
+
+// function isLeapYear(y) {
+//     if(y % 4 == 0){
+//         return true
+//     }else{
+//         return false
+//     }  
+// }
+
+// let y = isLeapYear(2024);
+// console.log(y);
+
+//-----------------------------------------------------------
+
+// 22- misol
+
+// function monthDays(m,y) {
+//     if(y % 4 == 0){
+//         switch (m) {
+//             case 1:
+//             case 3 :
+//             case 5 :
+//             case 7 :
+//             case 8 :
+//             case 10 :
+//             case 12 :          
+//                 console.log(`${y} yilning ${m} - oyda 31 kun bor`);
+//                 break;
+//             case 2 :
+//                console.log(`${y} yilning ${m} - oyda 29 kun bor`);
+//                break; 
+//             case 4 :
+//             case 6 :
+//             case 9 :
+//             case 11 :           
+//                 console.log(`${y} yilning ${m} - oyda 30 kun bor`);
+//                 break; 
+//         }
+        
+//     }else{
+//         switch (m) {
+//             case 1:
+//             case 3 :
+//             case 5 :
+//             case 7 :
+//             case 8 :
+//             case 10 :
+//             case 12 :          
+//                 console.log(`${y} yilning ${m} - oyda 31 kun bor`);
+//                 break;
+//             case 2 :
+//                console.log(`${y} yilning ${m} - oyda 28 kun bor`);
+//                break; 
+//             case 4 :
+//             case 6 :
+//             case 9 :
+//             case 11 :           
+//                 console.log(`${y} yilning ${m} - oyda 30 kun bor`);
+//                 break; 
+//         }
+//     }  
+// }
+// monthDays(2,2024)
+
+//---------------------------------------------------------------------------
+
+// 25 - misol
+
+
+function getDvinder(n) {
+
+    let a = 0;
+    let b = 0;
+    for(let i = 1; i <= n; i ++){
+        if (n % i == 0){
+            a ++
+            b += i;
+        }
+    }
+    console.log(a,b);
+}
+
+getDvinder(12)
+
+//----------------------------------------------------------  
