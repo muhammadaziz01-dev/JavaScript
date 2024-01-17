@@ -248,7 +248,28 @@
 
 // 12- misol
 
+// function numberOfPrime(N){
+//     let a = 0
+//     let b = 0;
+//     for (let i = 2; i <= N; i++) {
+//         b = 0;
+//         for (let j = 1; j <= i; j++) {
+//             if(i % j == 0)
+//                 b+=1
+//         }
+//         if(b == 2 )
+//             a +=1;
+//     }
+//     return a;
+// }
+// let n = 15;
+// console.log(numberOfPrime(n));
+
 //------------------------------------------------
+
+// 13- misol
+
+
 
 // 16 - misol
 
