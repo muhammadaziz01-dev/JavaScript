@@ -267,8 +267,15 @@
 
 //------------------------------------------------
 
-// 13- misol
+// 14- misol
 
+function inverseNumber(n) {
+    let nStr =String(n);
+    let reverestStr = nStr.split('').reverse('').join('');
+    return Number(reverestStr);
+}
+
+console.log(inverseNumber(1234));
 
 
 // 16 - misol
@@ -411,19 +418,19 @@
 // 25 - misol
 
 
-function getDvinder(n) {
+// function getDvinder(n) {
 
-    let a = 0;
-    let b = 0;
-    for(let i = 1; i <= n; i ++){
-        if (n % i == 0){
-            a ++
-            b += i;
-        }
-    }
-    console.log(a,b);
-}
+//     let a = 0;
+//     let b = 0;
+//     for(let i = 1; i <= n; i ++){
+//         if (n % i == 0){
+//             a ++
+//             b += i;
+//         }
+//     }
+//     console.log(a,b);
+// }
 
-getDvinder(12)
+// getDvinder(12)
 
 //----------------------------------------------------------  
