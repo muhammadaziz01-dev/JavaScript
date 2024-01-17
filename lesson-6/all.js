@@ -269,13 +269,13 @@
 
 // 14- misol
 
-function inverseNumber(n) {
-    let nStr =String(n);
-    let reverestStr = nStr.split('').reverse('').join('');
-    return Number(reverestStr);
-}
+// function inverseNumber(n) {
+//     let nStr =String(n);
+//     let reverestStr = nStr.split('').reverse('').join('');
+//     return Number(reverestStr);
+// }
 
-console.log(inverseNumber(1234));
+// console.log(inverseNumber(1234));
 
 
 // 16 - misol
@@ -347,6 +347,19 @@ console.log(inverseNumber(1234));
 // inverTaime(0,6,40)
 
 //------------------------------------------------------------------------------
+
+// 20 - misol
+
+// function decTime(h , m , s) {
+//     let a = h * 3600 + m * 60 + s -1;
+//     let hour = Math.floor(a/3600);
+//     let minut = Math.floor(a%3600/60);
+//     let secunt = Math.floor(a%60);
+//     console.log(hour,minut,secunt);
+// }
+// decTime(7, 0 , 0)
+
+//------------------------------------------------------------------------
 
 // 21- misol
 
