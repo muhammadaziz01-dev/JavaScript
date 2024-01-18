@@ -134,3 +134,31 @@
 //-------------------------------------------------------
 
 //--
+
+// const funcNam = function () {
+//     console.log("Lesson - 8");
+// }
+
+// funcNam();
+
+// const funcNam = function (a , b) {
+//     console.log(a+b);
+// }
+
+// funcNam(4,6);
+
+// let test = funcNam ;
+
+// test(28,67)
+
+////-------------------------------------------------
+
+const funcNam = (a, b , c) => {
+    if(a>b && b>c){
+        console.log(a+b/c);
+    }else{
+        console.log(a+b+c);
+    }
+};
+
+funcNam(20,12,4)
