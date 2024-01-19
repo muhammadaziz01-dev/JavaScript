@@ -117,7 +117,7 @@
 
 // console.log(amalar(7, 5, "*"));
 
-// --------------------------------------------------
+// ----------------- Function declereshin ---------------------------------
 
 // 10 - misol
 
@@ -131,7 +131,7 @@
 
 // kara(5);
 
-//-------------------------------------------------------
+//-------------- Function exponeshil -----------------------------------------
 
 //--
 
@@ -151,14 +151,23 @@
 
 // test(28,67)
 
-////-------------------------------------------------
+////--------------Arrow functin -----------------------------------
 
-const funcNam = (a, b , c) => {
-    if(a>b && b>c){
-        console.log(a+b/c);
-    }else{
-        console.log(a+b+c);
-    }
-};
+// const funcNam = (a, b , c) => {
+//     if(a>b && b>c){
+//         console.log(a+b/c);
+//     }else{
+//         console.log(a+b+c);
+//     }
+// };
 
-funcNam(20,12,4)
+// funcNam(20,12,4)
+
+//------------------------------------------
+
+let a = prompt("O'zingiz haqingizda malumot kiriting : ");
+
+a = a.split(" ");
+console.log(a);
+let b = a.length;
+console.log(b);
