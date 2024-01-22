@@ -100,3 +100,259 @@
 
 // 7 - misol
 
+//-----------------------------------------------------
+
+// 8- misol 
+
+// function naber(n) {
+//     let arr =[];
+//     let sum = 0;
+//     for(let i = 0; i <= n; i++){
+//         arr.push(i);
+//     }
+//     let k = arr[1];
+//     let l = arr.length-2;
+//     for (k ; k <= l; k++ ){
+//         sum += arr[k]
+//     }
+//     console.log(arr);
+//     console.log(sum);
+    
+// }
+
+// naber(6);
+
+//---------------------------------------------
+
+// 9 - misol
+
+// function naber(n) {
+//     let arr = [];
+//     let j = 0;
+//     for(let i = 0; i <= n ; i++){
+//         arr.push("M" + i);
+//         if(i % 2 == 0){
+//             j = i ;
+//         }
+//     }
+//     console.log(arr);
+//     console.log(`[${arr}] array ning juft indekislari ichida en kattasi ${j}-indeks`);
+    
+// }
+// naber(20);
+
+//-------------------------------------------------------------------------------
+
+// 10 - misol
+
+// function naber(n) {
+//     let arr = [];
+//     let j = 0;
+//     for(let i = 0; i <= n ; i++){
+//         arr.push("M" + i);
+//         if(i == arr[0]){
+//             j = i ;
+//         }
+//     }
+//     console.log(arr);
+//     console.log(`[${arr}] array ning juft indekislari ichida en kichigi ${j}-indeks`);
+    
+// }
+// naber(5);
+
+//----------------------------------------------------------------------------------
+
+// 11 - misol
+
+// function naber(n) {
+//     let arr = [];
+//     let j = 0;
+//     for(let i = 0; i <= n ; i++){
+//         arr.push("M" + i);
+//         if(i % 2 == 1){
+//             j = i ;
+//         }
+//     }
+//     console.log(arr);
+//     console.log(`[${arr}] array ning toq indekslari ichida en kattasi ${j}-indeks`);
+    
+// }
+// naber(10);
+
+//---------------------------------------------------------------
+
+// 12 - misol 
+
+// function naber(n) {
+//     let arr = [];
+//     let j = 0;
+//     for(let i = 0 ; i <= n; i++){
+//         arr.push(i*10);
+//         j += arr[i];
+//     }
+
+//     console.log(arr);
+//     console.log(`[${arr}] array ning qiymatlarining "${j}" orta arimetigi ${j / n} ga teng`);
+// }
+
+// naber(3);
+
+//-------------------------------------------------------------------
+
+// 13 -misol
+
+//faqat toq indekslarni chiqarun=mch massiv
+
+// function naber(n) {
+//     let arr = [];
+//     for (let i = 0; i <= n; i++){
+//         if(i % 2 == 1){
+//             arr.push(i);
+//         }
+//     }
+//     console.log(arr);
+// }
+
+// naber(15);
+
+//-------------------------------------------------------
+
+// 14 - misol 
+
+// function naber(n) {
+//     let arr = [];
+//     for (let i = 0; i <= n; i++){
+//         arr.push(i)
+//         if(arr[i] % i == 0 && arr[i] % arr[i] == 0 && arr[i] % 1 ==0){
+                   
+//         }
+//     }
+//     console.log(arr);
+// }
+
+// naber(13);
+
+// chala 
+
+///---------------------------------------------------------------------
+
+// 15 - miol
+
+// qiymtlarini faqat toqlarinigina chiqaruvch funcsiya
+
+// let namber = (n) => {
+//     let arr = [];
+//     let arrtoq = [];
+//     for(let i = 0; i <= n; i++){
+//         arr.push(i);
+//         if(i % 2 == 1){
+//             arrtoq.push(i);
+//         }
+//     }
+//     return arrtoq;
+// }
+
+// console.log( namber(17));
+
+//-----------------------------------------------
+
+// 18 - misol
+
+// let namber = (n) => {
+//     let arr = [];
+//     for(let i = 0; i <= n; i++){
+//         arr[i]= prompt(`massivnig ${i}- indeksi uchun qiymat kiriting !`);
+//     }
+//     return arr;
+// }
+
+// console.log(namber(3));
+
+//------------------------------------------------------
+
+// 19 -misil
+
+// let namber = (n) => {
+//     let arr = [];
+//     let sum = 0;
+//     for(let i = 0; i <= n; i++){
+//         arr[i]= +prompt(`massivnig ${i}- indeksi uchun qiymat kiriting !`);
+//         if(Number.isInteger(arr[i])){
+//             sum += arr[i];
+//         }else{
+//             alert("Butun son kiriting !");
+//         }
+//     }
+//     console.log(arr);
+//     console.log(`siz kiritgan massiv qiymatlari yigindisi ${sum} ga teng`);
+// }
+
+// namber(3);
+
+//------------------------------------------------------------------------
+
+// 20 - misol
+
+let namber = (n) => {
+    let arr = [];
+    let arrtoq = [];
+    let arrjuft = [];
+    for(let i = 0; i <= n; i++){
+        arr[i]= prompt(`${i} = `);
+        if(arr[i] % 2 == 1){
+            arrtoq.push(arr[i]);
+        }else{
+            arrjuft.push(arr[i]); 
+        }
+    }
+    let b = prompt("juft yoki toq tanlang");
+    if(b == "juft"){
+        console.log(arrjuft);
+    }else if (b == "toq"){
+        console.log(arrtoq);
+    }else {
+        console.log("juft yoki toq faqat ikkisidan birini kiriting! ")
+    }
+}
+
+let n = +prompt('massiv indekslari uchun son kiriting !');
+namber(n);
+
+//--------------------------
+
+// 21 - misol
+
+// let naber = (n) =>{
+//     let arr = [];
+//     for(let i = 0; i < n; i++){
+//        arr.push(i) ;
+//     }
+//     console.log(arr);
+//     return `massivning ohirgi elamenti " ${arr.length-1} " !`;
+// }
+
+// console.log(naber(7));
+
+//--------------------------------------------------------------------
+
+// 22 - misol
+
+// let namber = (n) => {
+//     let arr = [];
+//     // let b = 0;
+//     for(let i = 0; i <= n; i++){
+//         arr[i]= prompt(`massivnig ${i}- indeksi uchun qiymat kiriting !`);
+        
+//     }
+//     for(let i = 0 ; i<= n ; i++){
+//         for(let j = i+1; j<=n; j++){
+//             if(arr[i]==arr[j]){
+//                 arr.pop()
+//             }
+//         }
+//     }
+//     // console.log(b);
+//     return arr;
+// }
+
+// console.log(namber(3));
