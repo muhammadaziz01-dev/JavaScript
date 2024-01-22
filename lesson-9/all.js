@@ -31,6 +31,37 @@
 //-------------------------------------------------------
 // splick()
 
-let fruits = ["apple", "banana", "orange", "grape"];
-fruits.splice(2, 1, "kiwi", "melon");
-console.log(fruits); // ["apple", "banana", "kiwi", "melon", "grape"]
+// let fruits = ["apple", "banana", "orange", "grape"];
+// fruits.splice(2, 1, "kiwi", "melon");
+// console.log(fruits); // ["apple", "banana", "kiwi", "melon", "grape"]
+
+
+// amalyot ucun misollar
+
+// 3- misol
+
+// let str = "Salom JavaScript";
+// console.log(str.charCodeAt(0));
+// console.log(str.length,str.charCodeAt(15));
+
+//-------------------------------------------
+
+// 4- misol
+
+// let n = 5;
+// let belgi = "A";
+// console.log(belgi.padStart(n,belgi));
+
+//-------------------------------------------
+
+//5 - misol
+
+// let str = "JavaScript"
+// console.log(str);
+// let str2 = str.split("").reverse().join("");
+// console.log(str2);
+
+//------------------------------------------------
+
+//6- misol
+
