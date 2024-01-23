@@ -99,6 +99,28 @@
 // ---------------------------------------------------
 
 // 7 - misol
+// let a = [];
+// let b = [];
+// let c = [];
+
+// a["ism"] = "Kamol";
+// a["yosh"] = 22;
+// b["ism"] = "Abror";
+// b["yosh"] = 17;
+// c["ism"] = "Sobir";
+// c["yosh"] = 25;
+
+// let farqAb = Math.abs(a["yosh"]-b["yosh"]);
+// let farqAc = Math.abs(a["yosh"]-c["yosh"]);
+// let farqBc = Math.abs(b["yosh"]-c["yosh"]);
+
+// console.log(${a["ism"]} va ${b["ism"]}ning yosh farqi ${farqAb} yosh);
+// console.log(${a["ism"]} va ${c["ism"]}ning yosh farqi ${farqAc} yosh);
+// console.log(${b["ism"]} va ${c["ism"]}ning yosh farqi ${farqBc} yosh);
+
+
+
+
 
 //-----------------------------------------------------
 
@@ -219,8 +241,8 @@
 
 // 14 - misol 
 
+// let arr = [];
 // function naber(n) {
-//     let arr = [];
 //     for (let i = 0; i <= n; i++){
 //         arr.push(i)
 //         if(arr[i] % i == 0 && arr[i] % arr[i] == 0 && arr[i] % 1 ==0){
@@ -304,30 +326,30 @@
 
 // 20 - misol
 
-let namber = (n) => {
-    let arr = [];
-    let arrtoq = [];
-    let arrjuft = [];
-    for(let i = 0; i <= n; i++){
-        arr[i]= prompt(`${i} = `);
-        if(arr[i] % 2 == 1){
-            arrtoq.push(arr[i]);
-        }else{
-            arrjuft.push(arr[i]); 
-        }
-    }
-    let b = prompt("juft yoki toq tanlang");
-    if(b == "juft"){
-        console.log(arrjuft);
-    }else if (b == "toq"){
-        console.log(arrtoq);
-    }else {
-        console.log("juft yoki toq faqat ikkisidan birini kiriting! ")
-    }
-}
+// let namber = (n) => {
+//     let arr = [];
+//     let arrtoq = [];
+//     let arrjuft = [];
+//     for(let i = 0; i <= n; i++){
+//         arr[i]= prompt(`${i} = `);
+//         if(arr[i] % 2 == 1){
+//             arrtoq.push(arr[i]);
+//         }else{
+//             arrjuft.push(arr[i]); 
+//         }
+//     }
+//     let b = prompt("juft yoki toq tanlang");
+//     if(b == "juft"){
+//         console.log(arrjuft);
+//     }else if (b == "toq"){
+//         console.log(arrtoq);
+//     }else {
+//         console.log("juft yoki toq faqat ikkisidan birini kiriting! ")
+//     }
+// }
 
-let n = +prompt('massiv indekslari uchun son kiriting !');
-namber(n);
+// let n = +prompt('massiv indekslari uchun son kiriting !');
+// namber(n);
 
 //--------------------------
 
@@ -367,3 +389,58 @@ namber(n);
 // }
 
 // console.log(namber(3));
+
+//----------------------------------------------------
+
+// 23 -24 - misolollar
+
+// let praducts = [
+//     {
+//         name : "Olma",
+//         price : 100,
+//         wight : 20,
+//     },
+//     {
+//         name : "Non",
+//         price : 200,
+//         wight : 1,
+//     },
+//     {
+//         name : "Kartoshka",
+//         price : 500,
+//         wight : 5,
+//     },
+// ];
+// let summa = 0;
+// let kg = 0;
+// for(let i = 0; i<praducts.length ; i++ ){
+//     summa += praducts[i].price;
+//     kg += praducts[i].wight;
+// }
+// console.log(summa);
+// console.log(kg);
+
+//-------------------------------------------------------------
+
+// 25 - misol
+
+let praducts = [
+    {
+        name : "abdulloh",
+        age : 100,
+        
+    },
+    {
+        name : "jamshit",
+        age : 48,
+    },
+    {
+        name : "humoyun",
+        age : 67,
+    },
+];
+let summa = 0;
+for(let i = 0; i<praducts.length ; i++ ){
+    summa += praducts[i].age;
+}
+console.log(Math.floor(summa/praducts.length));
