@@ -278,13 +278,26 @@
 
 //-----------------------------------------------
 
-//16 - misol
-
-
-
-//------------------------
-
 //17 - misol
+// function murakkabson(arr){
+//     if(arr.length < 12){
+//         return false
+//     }
+//     for(let i = 0; i< arr.length; i++){
+//         let count = 0
+//         for(let j = 2; j < i/2; j++){
+//             if(i%j == 0){
+//                 count++
+//             }
+//         }
+//         if(count >= 3){
+//             console.log(`${i}-o'rinda ${arr[i]}`);
+//         }
+//     }
+// }
+// let murakkabsonlar = [2, 4, 6, 12, 30, 100, 24, 4534,324 , 12, 432, 432, 43, 432, 432,4,23,4,234, 432, 234, 432, 432, 423, 423, 42,3, 42,3, 423, 423, 423, 423, 423, 42,3, 423, 42,3, 4234 ]
+
+// murakkabson(murakkabsonlar);
 
 
 
@@ -424,23 +437,69 @@
 
 // 25 - misol
 
-let praducts = [
-    {
-        name : "abdulloh",
-        age : 100,
+// let praducts = [
+//     {
+//         name : "abdulloh",
+//         age : 100,
         
-    },
-    {
-        name : "jamshit",
-        age : 48,
-    },
-    {
-        name : "humoyun",
-        age : 67,
-    },
-];
-let summa = 0;
-for(let i = 0; i<praducts.length ; i++ ){
-    summa += praducts[i].age;
+//     },
+//     {
+//         name : "jamshit",
+//         age : 48,
+//     },
+//     {
+//         name : "humoyun",
+//         age : 67,
+//     },
+// ];
+// let summa = 0;
+// for(let i = 0; i<praducts.length ; i++ ){
+//     summa += praducts[i].age;
+// }
+// console.log(Math.floor(summa/praducts.length));
+
+//-------------------------------------------------------------
+
+// 26 - misol 
+
+//Kalitlari 0 dan n gacha bo’lganlar sonlarga, qiymatlari esa o’sha sonlarning kvatratiga teng object hosil qiling. (for)
+
+// function nabers (n){
+//     let arr = [];
+    
+//     for(let i = 0 ; i <= n; i++){
+//         arr.push(i**2)
+//     }
+    
+//     let naber = { ...arr}
+//     return naber ;
+// }
+
+// console.log(nabers(10));
+
+//------------------------------------------------------------
+
+//27 - misol 
+
+//2-misoldan hosil bo’lgan objectning kalitlari va qiymatlari yig’indisini toping. (Object.keys(), Object.values())
+
+function nabers (n){
+    let arr = [];
+    for(let i = 0 ; i <= n; i++){
+        arr.push(i**2)
+        // keys += arr[i]
+    }
+    
+    let naber = { ...arr}
+    let keys = 0;
+    let values = 0;
+    for(let j = 0 ; j <= arr.length-1; j++){
+        keys += j
+        values += arr[j]
+    }
+    console.log(naber);
+    console.log(`Objectning  keyslarinig yigindisi ` + keys);
+    console.log(`Objectning  valueslarining yigindisi ` + values );
 }
-console.log(Math.floor(summa/praducts.length));
+
+nabers(10);
