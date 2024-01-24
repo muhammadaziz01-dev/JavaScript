@@ -79,16 +79,61 @@
 
 //---------------------------------------------------------------------------------------------
 
-// 5- misol
+//5 - misol 
 
- const obj = {
-    "it": 20,
-    "mushuk": 10,
-    "sigir": 200,
-    "tovuq": 2
-};
+// function nabers (n){
+//     let arr = [];
+//     for(let i = 0 ; i <= n; i++){
+//         arr.push(i**2)
+//         // keys += arr[i]
+//     }
+    
+//     let naber = { ...arr}
+//     let keys = 0;
+//     let values = 0;
+//     for(let j = 0 ; j <= arr.length-1; j++){
+//         keys += j
+//         values += arr[j]
+//     }
+//     console.log(naber);
+//     console.log(`Objectning  keyslarinig yigindisi ` + keys);
+//     console.log(`Objectning  valueslarining yigindisi ` + values );
+// }
 
-const obj2 =[];
+// nabers(10);
 
-console.log(obj2);
-  
+//------------------------------------------------------------------------------------------
+
+// 6- misol
+
+
+//   function calcaAge(yil , ism) {
+//     const age = 2024 - yil;
+//     console.log(` ${ism} siz ${age} yoshga kirdingiz`);
+// //     return age ;
+//    }
+
+//   const age = calcaAge(2002 ,"Muhammadaziz");
+//   age();
+
+// ------------------------------------------------------------
+
+// 7- misol 
+
+//Kalitlari 0 dan n gacha bo’lganlar sonlarga, qiymatlari esa o’sha sonlarning kvatratiga teng object hosil qiling. (for)
+
+// function nabers (n){
+//     let arr = [];
+    
+//     for(let i = 0 ; i <= n; i++){
+//         arr.push(i**2)
+//     }
+    
+//     let naber = { ...arr}
+//     return naber ;
+// }
+
+// console.log(nabers(10));
+
+//---------------------------------------------------------------------------------------------
+
