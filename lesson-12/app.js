@@ -137,3 +137,13 @@
 
 //---------------------------------------------------------------------------------------------
 
+// 8 - misol
+
+const ismlar = [ "ahror", "sardor", "farhod" ,"donyor"];
+const ismlar2 = [];
+ismlar.forEach(function (ism){
+    const newIsm = ism.charAt().toUpperCase()+ism.slice(1).toLoweCase()+'bek';
+    ismlar2.push(newIsm)
+});
+
+console.log(ismlar2);
