@@ -45,15 +45,21 @@
 
 // 4-misol
 
-let arr = [];
 
-function addElement(a) {
-    arr.push(a);
-    return arr;
+
+function* signUpTelegram() {
+    yield "telefon raqamingizni kiriting";
+    yield "SMS kodni kiriting";
+    yield "Tabriklaymiz!";
 }
 
-addElement(21);
+const telegram = signUpTelegram();
 
+// console.log(telegram);
+console.log(telegram.next().value);
+console.log(telegram.next().value);
+console.log(telegram.next().value);
+console.log(telegram.next().done);
 
 
 
